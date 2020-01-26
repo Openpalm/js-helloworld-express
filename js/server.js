@@ -1,5 +1,5 @@
 const express = require('express');
-var serveIndex = require('serve-index')
+const serveIndex = require('serve-index')
 
 const globals = require ('./globals.js')
 const app = express();
