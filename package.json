@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "express-helloworld-express",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Shokodemon/js-helloworld-express/issues"
   },
-  "homepage": "https://github.com/Shokodemon/js-helloworld-express#readme"
+  "homepage": "https://github.com/Shokodemon/js-helloworld-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
