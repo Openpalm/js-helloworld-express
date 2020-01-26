@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm t",
-    "start": "node server.js"
+    "start": "node js/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Shokodemon/js-helloworld-express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "serve-index": "^1.9.1"
   }
 }
