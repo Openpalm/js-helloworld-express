@@ -5,7 +5,7 @@ const globals = require ('./globals.js')
 const app = express();
 const env = new globals();
 
-app.use('/', express.static('public/'), serveIndex('public', {'icons': true}))
+app.use('/', express.static('public'), serveIndex('public', {'icons': true}))
 
 /*
 app.get('/', function(req, res){
